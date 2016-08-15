@@ -5,17 +5,14 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
-
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
 }
-
 ::selection {
     background: #b3d4fc;
     text-shadow: none;
 }
-
 hr {
     display: block;
     height: 1px;
@@ -24,26 +21,17 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
-
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
+audio, canvas, iframe, img, svg, video {
     vertical-align: middle;
 }
-
 fieldset {
     border: 0;
     margin: 0;
     padding: 0;
 }
-
 textarea {
     resize: vertical;
 }
-
 .browserupgrade {
     margin: 0.2em 0;
     background: #ccc;
@@ -51,39 +39,161 @@ textarea {
     padding: 0.2em 0;
 }
 
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
 
+/* ==========================================================================
+      body
+      ========================================================================== */
+
+body {
+    background-color:#000000;
+}
+
+/* ==========================================================================
+   header
+   ========================================================================== */
+
+header {
+    background-color: #000000;
+    text-align: center;
+}
+
+/* ==========================================================================
+      navigation
+      ========================================================================== */
+
+nav {
+    display: flex;
+    text-align: center;
+}
+.navigation ul {
+    width: 100%;
+}
+.navigation li, a {
+color: #D5B632;
 
 
+}
+.li, a :hover
+{
+  background-color: transparent;
+}
+
+/* ==========================================================================
+   HOME PAGE PICTURES
+   ========================================================================== */
+
+   .headermessage {
+     margin: 19px;
+     color:  #D5B632;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 16px;
+     font-weight: bold;
+   }
+   .texte{
+     color:  #D5B632;
+     margin: 19px;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 16px;
+     font-weight: bold;
+   }
+   .image-block {
+       border: 3px solid  #D5B632 ;
+       background-color: black;
+       padding: 0px;
+       margin: 0px;
+       height:200px;
+       text-align: center;
+       vertical-align: bottom;
+   }
+   .image-block > p {
+       width: 100%;
+       height: 100%;
+       font-weight: normal;
+       font-size: 19px;
+       padding-top: 150px;
+       background-color: rgba(3,3,3,0.0);
+       color: rgba(6,6,6,0.0);
+   }
+   .image-block:hover > p {
+       background-color: rgba(3,3,3,0.5);
+       color: white;
+   }
+   /* ==========================================================================
+   page home with page header
+      ========================================================================== */
+.page-header{
+  color:  #D5B632;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  height:270px;
+  font-weight: bold;
+}
+
+body {
+    margin-top: 70px;
+}
+.main-header{
+    font-size: 21px;
+    height: 270px;
+    font-family: 'Open Sans', sans-serif;
+    background: url("img/home1.jep") center center no-repeat;
+    background-size:cover;
+}
+h2 ,h1{
+color:#D5B632
+
+}
+button{
+  float:right;
+}
+footer {
+    margin: 10px 0;
+}
 
 
+/* ==========================================================================
+footer WITH ICONS
+   ========================================================================== */
 
-
-
-
-
-
-
-
+.follow-us-container {
+     display: flex;
+     text-align: center;
+    position:static;
+    bottom: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.follow-us {
+    font-size: 32px;
+    color: #D5B632;
+}
+.social-icon {
+    padding-top: 6px;
+    font-size: 16px;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    border: 2px solid #D5B632;
+    border-radius: 50%;
+    color: #D5B632;
+    margin: 5px;
+}
+a.social-icon:hover, a.social-icon:active, a.social-icon:focus {
+    text-decoration: none;
+    color: #434343;
+    border-color: #434343;
+}
 
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-
-}
-
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-
-}
+@media only screen and (min-width: 35em) {}
+@media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {}
 
 /* ==========================================================================
    Helper classes
@@ -93,7 +203,6 @@ textarea {
     display: none !important;
     visibility: hidden;
 }
-
 .visuallyhidden {
     border: 0;
     clip: rect(0 0 0 0);
@@ -104,9 +213,7 @@ textarea {
     position: absolute;
     width: 1px;
 }
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
     clip: auto;
     height: auto;
     margin: 0;
@@ -114,21 +221,16 @@ textarea {
     position: static;
     width: auto;
 }
-
 .invisible {
     visibility: hidden;
 }
-
-.clearfix:before,
-.clearfix:after {
+.clearfix:before, .clearfix:after {
     content: " ";
     display: table;
 }
-
 .clearfix:after {
     clear: both;
 }
-
 .clearfix {
     *zoom: 1;
 }
@@ -138,61 +240,42 @@ textarea {
    ========================================================================== */
 
 @media print {
-    *,
-    *:before,
-    *:after {
+    *, *:before, *:after {
         background: transparent !important;
         color: #000 !important;
         box-shadow: none !important;
         text-shadow: none !important;
     }
-
-    a,
-    a:visited {
+    a, a:visited {
         text-decoration: underline;
     }
-
     a[href]:after {
         content: " (" attr(href) ")";
     }
-
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
+    a[href^="#"]:after, a[href^="javascript:"]:after {
         content: "";
     }
-
-    pre,
-    blockquote {
+    pre, blockquote {
         border: 1px solid #999;
         page-break-inside: avoid;
     }
-
     thead {
         display: table-header-group;
     }
-
-    tr,
-    img {
+    tr, img {
         page-break-inside: avoid;
     }
-
     img {
         max-width: 100% !important;
     }
-
-    p,
-    h2,
-    h3 {
+    p, h2, h3 {
         orphans: 3;
         widows: 3;
     }
-
-    h2,
-    h3 {
+    h2, h3 {
         page-break-after: avoid;
     }
 }
