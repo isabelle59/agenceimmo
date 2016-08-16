@@ -50,7 +50,14 @@ textarea {
 
 body {
     background-color:#000000;
+
+        margin-top: 50px;
+
 }
+
+
+
+
 
 /* ==========================================================================
    header
@@ -133,9 +140,6 @@ color: #D5B632;
   font-weight: bold;
 }
 
-body {
-    margin-top: 70px;
-}
 .main-header{
     font-size: 21px;
     height: 270px;
@@ -143,17 +147,26 @@ body {
     background: url("img/home1.jep") center center no-repeat;
     background-size:cover;
 }
-h2 ,h1{
+h3,h2 , h1 {
 color:#D5B632
 
 }
 button{
   float:right;
+  color:#D5B632;
 }
 footer {
     margin: 10px 0;
 }
 
+/* ==========================================================================
+page rent with cards
+   ========================================================================== */
+
+
+p {
+  color: #998970;
+}
 
 /* ==========================================================================
 footer WITH ICONS
