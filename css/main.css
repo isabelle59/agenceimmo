@@ -117,10 +117,10 @@ color: #D5B632;
        vertical-align: bottom;
    }
    .image-block > p {
-       width: 90%;
-       height: 90%;
-       font-weight: normal;
-       font-size: 19px;
+       width:100%;
+       height: 100%;
+       font-weight:bold;
+       font-size: 20px;
        padding-top: 150px;
        background-color: rgba(3,3,3,0.0);
        color: rgba(6,6,6,0.0);
@@ -170,12 +170,12 @@ page services with cards for informations
     }
 
         .thumbnail:hover {
-            background-color:#7FFFD4;
+            background-color:#D5B632;
         }
 
     .votes {
         font-size: 47px;
-        color: #D5B632;
+        color:#333333;
         padding: 10px;
     }
 
@@ -183,6 +183,42 @@ page services with cards for informations
         width: 100%;
     }
 
+
+
+
+    /* ==========================================================================
+    page PARTENAIRES with  DIRECTS LINKS for informations
+       ========================================================================== */
+
+
+
+
+
+
+
+    #cnt1 {
+         background-color:rgba(215, 212, 212, 0.88);
+         width:90%;
+         margin-bottom:70px;
+     }
+
+     .feature{
+         padding: 20px 0;
+        text-align: center;
+     }
+     .feature > div > div{
+        padding: 10px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        transition: 0.2s;
+     }
+     .feature > div:hover > div{
+        margin-top: -10px;
+        border: 1px solid rgb(128, 128, 128);
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 5px;
+        background: rgba(232, 215, 215, 0.10);
+        transition: 0.3s;
+     }
 
 
 /* ==========================================================================
