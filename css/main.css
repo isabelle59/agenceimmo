@@ -4,7 +4,6 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
-
 }
 ::-moz-selection {
     background: #b3d4fc;
@@ -15,10 +14,10 @@ html {
     text-shadow: none;
 }
 hr {
-    display:block;
+    display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid  #D5B632;
+    border-top: 1px solid #D5B632;
     margin: 1em 0;
     padding: 0;
 }
@@ -50,19 +49,13 @@ textarea {
       ========================================================================== */
 
 body {
-    background-color:#000000;
-
-        margin-top: 50px;
-color:#ccc;
+    background-color: #000000;
+    margin-top: 50px;
+    color: #ccc;
 }
-
 * {
-font-family:  'Courgette', cursive;
-
+    font-family: 'Courgette', cursive;
 }
-
-
-
 
 /* ==========================================================================
    header
@@ -85,171 +78,162 @@ nav {
     width: 100%;
 }
 .navigation li, a {
-color: #D5B632;
-
-
+    color: #D5B632;
 }
-.li, a :hover
-{
-  background-color: transparent;
+.li, a:hover {
+    background-color: transparent;
 }
 
 /* ==========================================================================
    HOME PAGE PICTURES
    ========================================================================== */
+
 .pictures {
-  margin: 0 50px;
+    margin: 0 50px;
 }
-   .headermessage {
-     margin: 19px;
-     color:  #D5B632;
-     font-family: 'Open Sans', sans-serif;
-     font-size: 16px;
-     font-weight: bold;
-   }
-   .texte{
-     color:  #D5B632;
-     margin: 19px;
-     font-family: 'Open Sans', sans-serif;
-     font-size: 16px;
-     font-weight: bold;
-   }
-   .image-block {
-       border: 3px solid  #D5B632 ;
-       background-color: black;
-       padding: 0px;
-       margin: 0px;
-       height:200px;
-       text-align: center;
-       vertical-align: bottom;
-   }
-   .image-block > p {
-       width:100%;
-       height: 100%;
-       font-weight:bold;
-       font-size: 20px;
-       padding-top: 150px;
-       background-color: rgba(3,3,3,0.0);
-       color: rgba(6,6,6,0.0);
-   }
-   .image-block:hover > p {
-       background-color: rgba(3,3,3,0.5);
-       color: white;
-   }
-   /* ==========================================================================
-   page home with page header
-      ========================================================================== */
-.page-header{
-  color:  #D5B632;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  height:270px;
-  font-weight: bold;
+.headermessage {
+    margin: 19px;
+    color: #D5B632;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.texte {
+    color: #D5B632;
+    margin: 19px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.image-block {
+    border: 3px solid #D5B632;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    height: 200px;
+    text-align: center;
+    vertical-align: bottom;
+}
+.image-block> p {
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 150px;
+    background-color: rgba(3, 3, 3, 0.0);
+    color: rgba(6, 6, 6, 0.0);
+}
+.image-block:hover> p {
+    background-color: rgba(3, 3, 3, 0.5);
+    color: white;
 }
 
-.main-header{
+/* ==========================================================================
+   page home with page header
+      ========================================================================== */
+
+.page-header {
+    color: #D5B632;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    height: 270px;
+    font-weight: bold;
+}
+.main-header {
     font-size: 21px;
     height: 270px;
     font-family: 'Open Sans', sans-serif;
     background: url("img/home1.jep") center center no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
-h3,h2 , h1 {
-color:#D5B632;
+h3, h2, h1 {
+    color: #D5B632;
+}
 
-}
 /* ==========================================================================
 footer
    ========================================================================== */
-button{
-  float:right;
-  color:#D5B632;
+
+button {
+    float: right;
+    color: #D5B632;
 }
 footer {
     margin: 10px 0;
 }
+
 /* ==========================================================================
 page services with cards for informations
    ========================================================================== */
 
-
 .thumbnail {
-        position: relative;
-        padding: 0px;
-        margin-bottom: 20px;
-    }
+    position: relative;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+.thumbnail:hover {
+    background-color: #D5B632;
+}
+.votes {
+    font-size: 47px;
+    color: #333333;
+    padding: 10px;
+}
+.thumbnail img {
+    width: 100%;
+}
 
-        .thumbnail:hover {
-            background-color:#D5B632;
-        }
-
-    .votes {
-        font-size: 47px;
-        color:#333333;
-        padding: 10px;
-    }
-
-    .thumbnail img {
-        width: 100%;
-    }
-
-
-
-
-    /* ==========================================================================
+/* ==========================================================================
     page PARTENAIRES with  DIRECTS LINKS for informations
        ========================================================================== */
-  #cnt1 {
-         background-color:rgba(215, 212, 212, 0.88);
-         width:90%;
-         margin-bottom:70px;
-         color: #444;
-     }
 
-     .feature{
-         padding: 20px 0;
-        text-align: center;
-     }
-     .feature > div > div{
-        padding: 10px;
-        border: 1px solid transparent;
-        border-radius: 4px;
-        transition: 0.2s;
-     }
-     .feature > div:hover > div{
-        margin-top: -10px;
-        border: 1px solid rgb(128, 128, 128);
-        box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 5px;
-        background: rgba(232, 215, 215, 0.10);
-        transition: 0.3s;
-     }
-
+#cnt1 {
+    background-color: rgba(215, 212, 212, 0.88);
+    width: 90%;
+    margin-bottom: 70px;
+    color: #444;
+}
+.feature {
+    padding: 20px 0;
+    text-align: center;
+}
+.feature> div> div {
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+.feature> div:hover> div {
+    margin-top: -10px;
+    border: 1px solid rgb(128, 128, 128);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 5px;
+    background: rgba(232, 215, 215, 0.10);
+    transition: 0.3s;
+}
 
 /* ==========================================================================
 page CONTACT with MAPS maps done on mymap/google tools
    ========================================================================== */
 
-  iframe {
-  width: 100%;
+iframe {
+    width: 100%;
 }
-       .header {
-           background-color:#F5F5F5;
-           color: #D5B632;
-           height: 70px;
-           font-size: 27px;
-           padding: 10px;
-       }
-
-
+.header {
+    background-color: #F5F5F5;
+    color: #D5B632;
+    height: 70px;
+    font-size: 27px;
+    padding: 10px;
+}
 
 /* ==========================================================================
  social-icons on footer
    ========================================================================== */
 
 .follow-us-container {
-     display: flex;
-     text-align: center;
-    position:static;
+    display: flex;
+    text-align: center;
+    position: static;
     bottom: 0;
     margin-top: 50px;
     margin-bottom: 50px;
