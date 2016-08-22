@@ -3,11 +3,12 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <faure isabelle> -- <edit "prestige -immobilier website for Simplon Roubaix's excercice> -- <twitter>
 
 # THANKS
+website edit with templates kits on boostrapiuous en prebootstrap and customise by Miss Isabelle Faure.
 
-    <name>
+    <isabelle faure>
 
 # TECHNOLOGY COLOPHON
 

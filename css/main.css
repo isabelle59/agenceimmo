@@ -4,6 +4,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+
 }
 ::-moz-selection {
     background: #b3d4fc;
@@ -52,9 +53,13 @@ body {
     background-color:#000000;
 
         margin-top: 50px;
-
+color:#ccc;
 }
 
+* {
+font-family:  'Courgette', cursive;
+
+}
 
 
 
@@ -92,7 +97,9 @@ color: #D5B632;
 /* ==========================================================================
    HOME PAGE PICTURES
    ========================================================================== */
-
+.pictures {
+  margin: 0 50px;
+}
    .headermessage {
      margin: 19px;
      color:  #D5B632;
@@ -151,6 +158,9 @@ h3,h2 , h1 {
 color:#D5B632;
 
 }
+/* ==========================================================================
+footer
+   ========================================================================== */
 button{
   float:right;
   color:#D5B632;
@@ -189,17 +199,11 @@ page services with cards for informations
     /* ==========================================================================
     page PARTENAIRES with  DIRECTS LINKS for informations
        ========================================================================== */
-
-
-
-
-
-
-
-    #cnt1 {
+  #cnt1 {
          background-color:rgba(215, 212, 212, 0.88);
          width:90%;
          margin-bottom:70px;
+         color: #444;
      }
 
      .feature{
@@ -222,16 +226,12 @@ page services with cards for informations
 
 
 /* ==========================================================================
-page CONTACT with MAPS
+page CONTACT with MAPS maps done on mymap/google tools
    ========================================================================== */
 
-       .map {
-           min-width: 300px;
-           min-height: 300px;
-           width: 100%;
-           height: 100%;
-       }
-
+  iframe {
+  width: 100%;
+}
        .header {
            background-color:#F5F5F5;
            color: #D5B632;
@@ -243,7 +243,7 @@ page CONTACT with MAPS
 
 
 /* ==========================================================================
-footer WITH ICONS
+ social-icons on footer
    ========================================================================== */
 
 .follow-us-container {
