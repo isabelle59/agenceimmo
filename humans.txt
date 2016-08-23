@@ -1,12 +1,13 @@
 # humanstxt.org/
 # The humans responsible & technology colophon
 
-# TEAM
+# TEAM SIMPLON-ROUBAIX promo2 Isa
 
-    <faure isabelle> -- <edit "prestige -immobilier website for Simplon Roubaix's excercice> -- <twitter>
+    <Faure Isabelle> -- <Edit "prestige -immobilier" website, for Simplon Roubaix's practice excercice> -- <twitter>
 
 # THANKS
-website edit with templates kits on boostrapiuous en prebootstrap and customise by Miss Isabelle Faure.
+Website edit with templates kits on boostrapious on prebootstrap and customise by Miss Isabelle Faure.
+Simplon rbx 2016
 
     <isabelle faure>
 
