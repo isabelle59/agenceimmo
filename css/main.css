@@ -167,6 +167,7 @@ page services with cards for informations
    ========================================================================== */
 
 .thumbnail {
+
     position: relative;
     padding: 0px;
     margin-bottom: 20px;
@@ -183,6 +184,9 @@ page services with cards for informations
     width: 100%;
 }
 
+.well{
+  color: #141414 ;
+}
 /* ==========================================================================
     page PARTENAIRES with  DIRECTS LINKS for informations
        ========================================================================== */
@@ -257,6 +261,13 @@ a.social-icon:hover, a.social-icon:active, a.social-icon:focus {
     text-decoration: none;
     color: #434343;
     border-color: #434343;
+}
+/* ==========================================================================
+ page contact
+   ========================================================================== */
+.panel-body {
+  color: #141414 ;
+
 }
 
 /* ==========================================================================
